@@ -3,6 +3,9 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+ruby version '2.6.5'
+rails version '~> 6.0.4'
+
 Commands
 Pull and run the development server and services
 
