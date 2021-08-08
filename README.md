@@ -17,6 +17,9 @@ heck your Ruby version and rails version
 ```
 ruby -v
 rails -v
+
+ruby version '2.6.5'
+rails version '~> 6.0.4'
 ```
 
 Install dependencies
