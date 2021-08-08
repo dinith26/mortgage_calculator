@@ -3,20 +3,43 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-ruby version '2.6.5'
-rails version '~> 6.0.4'
+Install
 
-Commands
-Pull and run the development server and services
-
-git clone https://github.com/dinith26/mortgage_calculator.git
-
-Install all dependencies and compile assets file usinf following commands
+Clone the repository
 ```
+git clone https://github.com/dinith26/mortgage_calculator.git
+cd mortgage_calculator
+
+```
+
+heck your Ruby version and rails version
+
+```
+ruby -v
+rails -v
+```
+
+Install dependencies
+```
+gem install bundler
 bundle install
 rails assets:clobber
 rails webpacker:compile
 ```
 
-run the development server and services
-rails server
+Set environment variables
+```
+No environment variables
+
+```
+
+Initialize the database
+```
+No Databases
+
+```
+
+Run project
+```
+rails s or rails server
+```
