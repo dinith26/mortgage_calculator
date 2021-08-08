@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root to: 'home#index'
-  get "/", to: "home#index"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root "home#index"
+  get "/home", to: "home#index"
+  get "/home/cal", to: "home#cal"
 end
