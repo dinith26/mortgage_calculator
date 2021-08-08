@@ -3,6 +3,7 @@ class HomeController < ApplicationController
   end
 
   def cal
+    # get the values from ajax request
     principal_amount = params[:loan_amount].to_f
     rate = params[:interest_rate].to_f
     period = params[:tenure].to_i
@@ -18,7 +19,6 @@ class HomeController < ApplicationController
     interest = a * r
     principal = monthly_payment - interest
     house_insurance = a * h
-
 
     render json: { 'status' => 'success', 'data' => [principal, interest, house_insurance] }
   end

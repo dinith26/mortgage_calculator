@@ -9,20 +9,8 @@ let lon = 1200;
 let int = 200;
 let home = 150;
 
-
-
 setTimeout(function(){
 
-    var pieData = [
-        {
-          value: 35,
-          color:"#3F9F3F"
-        },
-        {
-          value : 100-35,
-          color : "#222"
-        }
-      ];
     var ctx = document.getElementById("myChart").getContext("2d");
     ctx.fillText("20" + "%", 100/2 - 20, 100/2, 200);
     myChart = new Chart(ctx, {

@@ -3,22 +3,16 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Commands
+Pull and run the development server and services
 
-* Ruby version
+git clone https://github.com/dinith26/mortgage_calculator.git
 
-* System dependencies
+Install all dependencies and compile assets file usinf following commands
 
-* Configuration
+bundle install
+rails assets:clobber
+rails webpacker:compile
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+run the development server and services
+rails server
